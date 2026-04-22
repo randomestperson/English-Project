@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <title>margatsnI - Profile Page</title>
+    <link rel="stylesheet" href="/assets/css/main.css">
+  </head>
+  <script src="/assets/js/script.js"></script>
+  <body>
+    <header>
+      <nav>
+        <div class="left">
+          <img src="/images/icon.png" alt="icon" class="nav-img">
+          <div class="logo">margatsnI</div>
+        </div>
+
+        <div class="center">
+          <input type="text" placeholder="Search..." class="search-bar">
+        </div>
+
+        <div class="right">
+          <img src="/images/compass_icon.png" class="nav-icon">
+          <img src="/images/heart_icon.png" class="nav-icon_for_heart">
+          <img src="/images/person_icon.png" class="nav-icon_for_person">
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- PROFILE SECTION 1 -->
+      <div class="profile-card">
+
+        <div class="profile-left">
+          <div class="profile-pic-frame">
+            <img src="/images/profile.png" alt="Profile Picture" class="profile-img">
+          </div>
+        </div>
+
+        <div class="profile-right">
+
+          <div class="top-row">
+            <h2>Egeus</h2>
+            <button class="follow-btn" onclick="toggleFollow(this)">
+              Follow
+            </button>
+          </div>
+
+          <div class="stats">
+            <span><strong>3</strong> posts</span>
+            <span><strong>487</strong> followers</span>
+            <span><strong>4</strong> following</span>
+          </div>
+
+          <div class="bio">
+            <strong>@egeus</strong>
+            <p>Hello. I am Egeus, a rich wealthy athenian man. I was forced to make this account by my daughter Hermia and her husband Lysander so that I can learn more about the in ternet or tell people how I feel. I don’t know much about this new world of the in ternet or what a fone is or what an aplication is. I really wonder what these random letters my daughter keeps on saying mean. I might try to learn them sometime…</p>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- POST SECTION 2 -->
+      <section class="post-section">
+
+        <div class="post-card">
+
+          <div class="post-images">
+            <img src="/images/Gemini_Generated_Image_q5fb0cq5fb0cq5fb.png">
+            <img src="/images/Gemini_Generated_Image_r89aztr89aztr89a.png">
+            <img src="/images/Gemini_Generated_Image_va556va556va556v.png">
+          </div>
+
+          <h3 class="post-subtitle"><strong>Post #2</strong> : How my character feels about another character</h3>
+
+          <p class="post-text">
+            This is absolutely outrageous! How could Thesus let my daughter marry that thief Lysander who stole my daughter’s heart right from Demeter. It should have been me who made that decision after those two illogical idiots tried to flee. If I were Thesus I would have given the father all the power over the daugther. The father should have the power, not the child. As a daughter she should have listened to her father and not whatever her heart desired.
+          </p>
+          <div class="post-actions">
+            <button class="action-btn like-btn" onclick="toggleLike(this)">❤️ Like</button>
+            <button class="action-btn">💬 Comment</button>
+            <button class="action-btn">🔗 Share</button>
+
+        </div>
+      </section>
+      <!-- POST SECTION 3 -->
+      <section class="post-section">
+
+        <div class="post-card">
+
+          <div class="post-images">
+            <img src="/images/Gemini_Generated_Image_c8bsk2c8bsk2c8bs.png">
+            <img src="/images/Gemini_Generated_Image_jsefj1jsefj1jsef.png">
+            <img src="/images/Gemini_Generated_Image_icqchqicqchqicqc.png">
+          </div>
+
+          <h3 class="post-subtitle"><strong>Post #3</strong> : Something my character wants or is trying to accomplish.</h3>
+
+          <p class="post-text">
+            It’s been a fun few days. I asked my daughter to teach me this new language of random letters and now I think I’ve got most of them already! She said that the basic idea of it was to shorten common phrases or sentences like “How are you”. Then technically, I could say Hello. My name is Egeus. IT Lysander understands my thoughts. HRU what I was saying last time. I once told him IDK and HRU me. Now with this new knowledge my daughter says I can “speak to young people more efficiently”.
+          </p>
+          <div class="post-actions">
+            <button class="action-btn like-btn" onclick="toggleLike(this)">❤️ Like</button>
+            <button class="action-btn">💬 Comment</button>
+            <button class="action-btn">🔗 Share</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

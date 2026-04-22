@@ -1,0 +1,221 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* ================= NAVBAR ================= */
+
+header {
+  background-color: #ffffff;
+  padding: 25px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* LEFT */
+.left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-img {
+  width: 50px;
+  height: 50px;
+}
+
+/* LOGO */
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Lobster", sans-serif;
+  color: black;
+}
+
+/* CENTER SEARCH */
+.center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.search-bar {
+  width: 60%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* RIGHT ICONS */
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.nav-icon {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.nav-icon_for_heart {
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.nav-icon_for_person {
+  width: 63px;
+  height: 63px;
+  cursor: pointer;
+}
+
+/* ================= MAIN LAYOUT ================= */
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+/* ================= PROFILE CARD ================= */
+
+.profile-card {
+  display: flex;
+  gap: 40px;
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* PROFILE IMAGE FRAME */
+.profile-pic-frame {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* RIGHT SIDE */
+.profile-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* TOP ROW */
+.top-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* FOLLOW BUTTON */
+.follow-btn {
+  padding: 5px 12px;
+  border: none;
+  background-color: #0095f6;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.follow-btn:hover {
+  background-color: #0077cc;
+}
+
+.following {
+  background-color: #aaa !important;
+}
+
+/* STATS */
+.stats {
+  margin: 10px 0;
+  display: flex;
+  gap: 20px;
+}
+
+.stats span {
+  font-size: 14px;
+}
+
+/* BIO */
+.bio p {
+  margin: 5px 0 0;
+  color: gray;
+}
+
+.post-section {
+  display: flex;
+  justify-content: center;
+}
+
+.post-card {
+  background-color: white;
+  width: 700px;
+  padding: 30px 40px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+/* IMAGE GRID */
+.post-images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.post-images img {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 6px;
+}
+.post-text {
+  color: gray;
+}
+.post-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.action-btn:hover {
+  background-color: #f0f0f0;
+}
+
+/* ACTIVE LIKE STATE */
+.liked {
+  background-color: #ff4d4d;
+  color: white;
+  border-color: #ff4d4d;
+}
